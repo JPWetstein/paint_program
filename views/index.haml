@@ -1,0 +1,10 @@
+%canvas#myCanvas{:height => "500", :style => "border:1px solid #000000;", :width => "500", :tabindex => "1"}  
+%br
+%input#colorpicker.color{:class => "{onImmediateChange:'change_color(this);'}", :value => "66ff00"}
+%br
+%input#amount{:style => "border: 0; color: #f6931f; font-weight: bold;", :type => "text"}
+%div#slider{:values => "{ values: [ 10, 25 ] }"}
+%br
+%select#toolPicker
+  %option{:value =>"paintbrush"}Paintbrush
+  %option{:value =>"eraser"}Eraser
